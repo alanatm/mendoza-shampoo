@@ -13,7 +13,7 @@ ul{
     justify-content: space-evenly;
     padding-inline-start: 0px; 
 }
-a{
+.link-nav{
     text-decoration: none;
     color: aliceblue;
 }
