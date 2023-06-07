@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(150, 64, 231);
+    margin: -8px;
+    padding: 0.5rem 1.5rem ;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    justify-content: space-evenly;
+    padding-inline-start: 0px; 
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+}
+input{
+    height: 2rem;
+}
