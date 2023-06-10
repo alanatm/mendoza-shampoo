@@ -1,28 +1,136 @@
+.fix-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 nav{
     display: flex;
     justify-content: space-between;
     background-color: rgb(150, 64, 231);
-    margin: -8px;
     padding: 0.5rem 1.5rem ;
-
+    align-items: center;
+    height: 3rem;
 }
+
 ul{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 30%;
     justify-content: space-evenly;
     padding-inline-start: 0px; 
 }
+
 .link-nav{
     text-decoration: none;
     color: aliceblue;
 }
+
 li{
     list-style: none;
 }
+
 input{
     height: 2rem;
 }
-h1{
-    color:rgb(150, 64, 231)
+
+.titulo{
+    color:rgb(150, 64, 231);
+    font-size: xx-large;
+}
+
+video{
+    height: 20rem;
+    width: 36rem;
+}
+
+.publish{
+    display: flex;
+    width: 70%;
+    margin: 8rem auto;
+    align-items: center;
+    margin-bottom: 5rem;
+    
+    
+}
+.lado-derecho{
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+}
+.video-container{
+    flex-direction: column;
+}
+.container{
+    background-color: rgb(171, 122, 218);
+    margin: auto 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.conv{
+    position: relative;
+    right: 5rem;
+}
+.titulo-conv{
+    font-size: xx-large;
+    color: aliceblue;
+}
+.text-conv{
+    color: white;
+    font-size: larger;
+}
+.img-conv{
+    width: 100%;
+    border-radius: 10px;
+}
+.test{
+    background-color: aliceblue;
+    height: 80%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.text-test{
+    color: rgb(36, 36, 36);
+    justify-content: center;
+    width: 90%;
+    margin: 1rem;
+}
+
+.car{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    background-color: rgb(242, 208, 245);
+    height: 90%;
+    width: 90%;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.062);
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.cont-grid{
+    display: flex;
+    justify-content: center;
+}
+.feact-grid{
+    margin-top: 2rem;
+    display: grid;
+   /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;*/
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    width: 80%;
+    height: 300px;
+}
+.grid-title{
+    margin-left: 1rem;
+    font-size: x-large;
+}
+
+.grid-text{
+    margin-left: 1.5rem;
+    font-size: medium;
 }
