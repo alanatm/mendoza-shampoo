@@ -1,3 +1,6 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .fix-header{
     position: fixed;
     top: 0;
@@ -7,27 +10,40 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(150, 64, 231);
+    background-color: rgb(40, 151, 68);
     padding: 0.5rem 1.5rem ;
     align-items: center;
     height: 3rem;
 }
 
+.img-logo{
+    height: 2rem;
+    margin-top: 5px;
+
+}
+
 ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 30%;
-    justify-content: space-evenly;
     padding-inline-start: 0px; 
 }
 
 .link-nav{
     text-decoration: none;
     color: aliceblue;
+    padding: 1.41rem;
+
+    transition: background-color 0.5s;
+}
+.link-nav:hover{
+    color: rgb(20, 85, 17);
+    background-color: aliceblue;
 }
 
 li{
     list-style: none;
+
 }
 
 input{
@@ -35,8 +51,12 @@ input{
 }
 
 .titulo{
-    color:rgb(150, 64, 231);
+    color:rgb(5, 94, 39);
     font-size: xx-large;
+}
+span{
+    font-weight: lighter;
+    color: rgb(8, 126, 53);
 }
 
 video{
@@ -61,7 +81,7 @@ video{
     flex-direction: column;
 }
 .container{
-    background-color: rgb(171, 122, 218);
+    background-color: rgb(116, 216, 121);
     margin: auto 5rem;
     display: flex;
     justify-content: center;
@@ -146,4 +166,12 @@ video{
     top:center;
     border-radius: 10px;
    
+}
+.link-promo{
+    color: rgb(116, 216, 121);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.link-promo:hover{
+    color: rgb(99, 177, 103);
 }
