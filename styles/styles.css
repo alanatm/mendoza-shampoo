@@ -89,11 +89,9 @@ video{
     align-items: center;
     padding: 3rem;
     border-radius: 10px;
+    
 }
-.conv{
-    position: relative;
-    right: 5rem;
-}
+
 .titulo-conv{
     font-size: xx-large;
     color: aliceblue;
@@ -105,14 +103,22 @@ video{
 .img-conv{
     width: 100%;
     border-radius: 10px;
+    object-fit: cover;
+}
+
+.conv{
+    width: 70%;
+    padding: 1rem;
 }
 .test{
     background-color: aliceblue;
-    height: 80%;
-    width: 20%;
+    height: 440px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    align-items: center;
+    padding: 1rem;
 }
 .text-test{
     color: rgb(36, 36, 36);
@@ -174,6 +180,10 @@ video{
 }
 .link-promo:hover{
     color: rgb(61, 121, 64);
+}
+
+.blur{
+    backdrop-filter: blur(10px);
 }
 
 footer{
