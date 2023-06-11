@@ -6,6 +6,7 @@ body{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 nav{
     display: flex;
@@ -81,7 +82,7 @@ video{
     flex-direction: column;
 }
 .container{
-    background-color: rgb(116, 216, 121);
+    background-color: rgb(91, 182, 95);
     margin: auto 5rem;
     display: flex;
     justify-content: center;
@@ -129,10 +130,8 @@ video{
     height: 90%;
     width: 90%;
     box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.04);
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
-
 .cont-grid{
     display: flex;
     justify-content: center;
@@ -158,6 +157,7 @@ video{
     grid-row: 2;
 }
 .img-grid{
+    max-height: 150px;
     height: 100%;
     width: 100%;
     grid-row: 1/3;
@@ -165,13 +165,22 @@ video{
     right: end;
     top:center;
     border-radius: 10px;
-   
+    object-fit: cover;
 }
 .link-promo{
-    color: rgb(116, 216, 121);
+    color: rgb(89, 177, 94);
     text-decoration: none;
     transition: color 0.5s;
 }
 .link-promo:hover{
-    color: rgb(99, 177, 103);
+    color: rgb(61, 121, 64);
+}
+
+footer{
+    background-color: antiquewhite;
+    height: 300px;
+    position: relative;
+    z-index: -1;
+    margin: auto -8px -8px -8px;
+
 }
