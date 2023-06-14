@@ -196,7 +196,7 @@ footer{
 
 
 /* Estilos para celular */
-@media (max-width : 575px) {
+@media (max-width : 620px) {
     .container{
         margin: auto;
         display: flex;
