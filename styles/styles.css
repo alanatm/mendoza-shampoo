@@ -192,5 +192,61 @@ footer{
     position: relative;
     z-index: -1;
     margin: auto -8px -8px -8px;
+}
+
+
+/* Estilos para celular */
+@media (max-width : 575px) {
+    .container{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+    
+    .conv{
+        width: 90%;
+    }
+
+    .feact-grid{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .publish{
+        width: 90%;
+        flex-direction: column;
+        margin:auto;
+        margin-bottom: 1.5rem;
+        margin-top: 6rem;
+    }
+
+    video{
+        height: auto;
+        width: 100%;
+    }
+
+    .img-grid{
+        max-height: max-content;
+    }
+    .car{
+        grid-template-rows: 5rem 5rem;
+    }
+    .grid-title{
+        font-size: medium;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .grid-text{
+        margin-left: 1rem;
+        font-size: small;
+    }
 
 }
