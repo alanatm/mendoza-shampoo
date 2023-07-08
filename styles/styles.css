@@ -8,9 +8,14 @@ body{
     right: 0;
     z-index: 1;
 }
+
+header{
+    background-color: rgb(40, 151, 68);
+    height: 3rem;
+    
+}
 nav{
     display: flex;
-    justify-content: space-between;
     background-color: rgb(40, 151, 68);
     padding: 0.5rem 1.5rem ;
     align-items: center;
@@ -20,13 +25,20 @@ nav{
 .img-logo{
     height: 2rem;
     margin-top: 5px;
+    
+}
+
+.logo{
+    position: fixed;
+    top: 10px;
+    left: 10px;
 
 }
 
-ul{
+.nav-list{
     display: flex;
     justify-content: center;
-    width: 30%;
+    width: 100%;
     padding-inline-start: 0px; 
 }
 
@@ -44,6 +56,7 @@ ul{
 
 li{
     list-style: none;
+    
 
 }
 
@@ -194,6 +207,14 @@ footer{
     margin: auto -8px -8px -8px;
 }
 
+.abrir,.cerrar{
+    display: none;
+} 
+
+.active{
+    color:rgb(181, 219, 194);
+}
+
 
 /* Estilos para celular */
 @media (max-width : 620px) {
@@ -249,4 +270,47 @@ footer{
         font-size: small;
     }
 
+    .abrir,.cerrar{
+        display: block;
+    } 
+
+    .nav-principal{
+        display: none;
+    }
+    .nav-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: fixed;
+        top:0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0,0,0,0.5);
+
+    }
+
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    li{
+        margin: 0;
+    }
+
+    header{
+        padding: 0.5rem 1.5rem ;
+    }
+
+    nav{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .link-nav{
+        display: block;
+    }
 }
