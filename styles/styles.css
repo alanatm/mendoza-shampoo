@@ -1,4 +1,4 @@
-body{
+.body-class{
     font-family: 'Montserrat', sans-serif;
 }
 .fix-header{
@@ -9,7 +9,7 @@ body{
     z-index: 1;
 }
 
-header{
+.header-class{
     background-color: rgb(40, 151, 68);
     height: 3rem;
     
@@ -342,4 +342,8 @@ footer{
         color: rgb(20, 85, 17);
         background: none;
 }
+}
+
+.contenido{
+    height: 100px;
 }
