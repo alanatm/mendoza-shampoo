@@ -284,7 +284,7 @@ footer{
         cursor: pointer;
     } 
     .abrir:hover{
-        
+
     }
 
     .nav-principal{
@@ -341,4 +341,5 @@ footer{
     .link-nav:hover{
         color: rgb(20, 85, 17);
         background: none;
+}
 }
